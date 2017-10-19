@@ -1,0 +1,603 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-10 10:07:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-19 10:05:33
+*/
+@import url('base.css');
+a{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-moz-tap-highlight-color: rgba(0,0,0,0);
+	-ms-tap-highlight-color: rgba(0,0,0,0);
+	-o-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+header i{
+	width: 19%;
+	height: 100%;
+	display: block;
+	font-size: 0.34rem;
+	line-height: 0.88rem;
+	text-align: center;
+    color: #fff;
+    float: left;
+}
+.header1{
+	width: 50%;
+	height: 0.66rem;
+	float: left;
+	border-top-left-radius: 0.04rem;
+	border-bottom-left-radius: 0.04rem;
+	padding-left: 2%;
+	border: none;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header a{
+	display: block;
+	width: 12%;
+	background: #fff;
+	height: 0.66rem;
+	border-top-right-radius: 0.04rem;
+	border-bottom-right-radius: 0.04rem;
+	float: left;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 69%;
+}
+header a i{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.32rem;
+	line-height: 0.66rem;
+/* 	float: left; */
+	text-align: center;
+	color: black;
+}
+.header2{
+	width: 19%;
+	height: 0.66rem;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 81%;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    text-align: center;
+    border: none;
+    background: #f32d2d;
+    color: #fff;
+}
+input:focus{
+	outline: none;
+}
+/* 头部结束 */
+/* 快速通道开始 */
+.section1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	/* background: #fff; */
+}
+.kuai li{
+	width: 20%;
+	height: auto;
+	padding-top: 0.08rem;
+    /* background: yellow; */
+    float: left;
+}
+.kuai li:nth-child(6),
+.kuai li:nth-child(7),
+.kuai li:nth-child(8),
+.kuai li:nth-child(9),
+.kuai li:nth-child(10){
+	margin-top: 0.27rem;
+}
+.kuai-img{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	margin: 0 auto;
+}
+.kuai-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.kuai-text{
+	display: block;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.15rem;
+}
+/* 快速通道结束 */
+/* 潮流酷玩开始 */
+/* .section2{
+	width: 100%;
+	height: 3.22rem;
+	background: #f0f0f0;
+} */
+.section2{
+	width: 100%;
+	height: 0.46rem;
+	padding-top: 0.16rem;
+	background: #f0f0f0;
+}
+.section2c{
+	width: 3.2rem;
+	height: 100%;
+	margin:0 auto;
+}
+.section2c-left{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin-top: 0.16rem;
+}
+.section2c i{
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	float:left;
+	margin-left: 0.2rem;
+	color: #4a86e6;
+}
+.section2c-text{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	color: #4a86e6;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.section2c-right{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.16rem;
+}
+.chaoliu{
+	width: 100%;
+	height: 2.6rem;
+	/* background: yellow; */
+}
+.chaoliu li{
+	display: block;
+	width: calc(100% / 3);
+	height: 2.6rem;
+	/* background: black; */
+	float: left;
+	overflow: hidden;
+}
+.chaoliu li a{
+	display: block;
+	width: 100%;
+	height: 2.6rem;
+}
+.chaoliu1{
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #000;
+	margin-top: 0.16rem;
+}
+.chaoliu2{
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #6f9ccc;
+	margin-top: 0.06rem;
+}
+.chaoliu3{
+	display: block;
+	width: 2.13rem;
+	height: 1.92rem;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+}
+/* 潮流酷玩结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.22rem;
+	/* background: yellow; */
+	margin-top: 0.88rem;
+	position: relative;
+}
+.banner1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner1 li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* z-index: 900; */
+}
+.banner1 li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner2{
+	width: 1.4rem;
+	height: 0.14rem;
+	position: absolute;
+	bottom: 0.16rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/* background: yellow; */
+}
+.banner2 li{
+	width: 0.14rem;
+	height: 0.14rem;
+	border-radius: 50%;
+	background: #9e9d9f;
+	float: left;
+	margin-right: 0.04rem;
+	position: relative;
+}
+.banner2 li:last-child{
+	margin-right: 0;
+}
+.banner2 li div{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+/* banner结束 */
+/* 推荐开始 */
+.section3{
+	width: 100%;
+	height: 2.12rem;
+	background: #f0f0f0;
+	padding-top: 0.07rem;
+	margin-top: 0.2rem;
+}
+.tuijian{
+	width: 6.36rem;
+	height: 2.12rem;
+	margin-left: 0.04rem;
+	/* background: red; */
+}
+.tuijian li{
+	/* display: block; */
+	width: 3.44rem;
+	height: 2.08rem;
+	float: left;
+	background: white;
+	margin-top: 0.02rem;
+	margin-left: 0.02rem;
+	box-shadow: 0 0 0.02rem 0.02rem #f6f8f5;
+}
+.tuijian li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tuijian li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 推荐结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 2.02rem;
+	/* background: yellow; */
+	border-top: 0.04rem solid #000;
+}
+.footer1{
+	width: 5.22rem;
+	height: 0.22rem;
+	margin: 0 auto;
+	margin-top: 0.42rem;
+	/* background: red; */
+}
+.footer1 li{
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	float: left;
+	padding-right: 0.33rem;
+	border-right: 0.04rem solid #999999;
+	margin-left: 0.33rem;
+}
+.footer1 li:first-child{
+	margin-left:0;
+}
+.footer1 li:last-child{
+	border-right: none;
+	padding-right: 0;
+}
+.footer1 li a{
+	color: #999999;
+}
+.footer2{
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #cccfda;
+	margin-top: 0.68rem;
+}
+/* 底部结束 */
+/* 必抢开始 */
+.section2d{
+	width: 2.70rem;
+	margin: 0 auto;
+}
+.biqiang{
+	width: 100%;
+	height: 5.09rem;
+}
+.biqiang li{
+	height: 50%;
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #f0f0f0;
+}
+.biqiang li:nth-child(4){
+	border-bottom: 0.02rem solid #f0f0f0;
+	border-left: 0.01rem solid #f0f0f0;
+}
+.biqiang li:nth-child(8){
+	border-left: 0.01rem solid #f0f0f0;
+}
+.biqiang li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.biqiang li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.biqiang1{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.14rem;
+	color: #000;
+	text-align: center;
+}
+.biqiang2{
+	width: 1.6rem;
+	height: 1.6rem;
+	margin: 0 auto;
+	margin-top: 0.09rem;
+	/* background: red; */
+}
+.biqiang3{
+	margin-top: 0.09rem;
+	margin: 0 auto;
+	position: relative;
+	width: 1.32rem;
+}
+.biqiang3-1{
+	font-size: 0.18rem;
+	float: left;
+	color: #ff2e2e;
+}
+.biqiang3-2{
+	font-size: 0.18rem;
+	float: right;
+	text-decoration: line-through;
+	color: #9b9b9b;
+}
+.biqiang-rgb1{
+	color: #fc2e2e;
+}
+.biqiang-rgb2{
+	background: #fc2e2e;
+}
+.section2d i{
+	color: #fc2e2e;
+}
+.pinpai-rgb1{
+	background: #ff807f;
+}
+.pinpai-rgb2{
+	color: #ff807f;
+}
+.section2e i{
+	color: #ff807f;
+}
+/* .biqiang3s{
+	width: 0.05rem;
+	height: 0.18rem;
+	position: absolute;
+	background: black;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	float: left;
+} */
+/* 必抢结束 */
+/* 品牌特卖开始 */
+.pinpai{
+	width: 100%;
+	height: 1.88rem;
+	/* background: yellow; */
+}
+.pinpai li{
+	width: 50%;
+	height: 100%;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+}
+.pinpai li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pinpai li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pinpai li:first-child{
+	border-right: 0.02rem solid #f0f0f0;
+}
+
+/* .pinpai li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+/* 品牌特卖结束 */
+/* 猜你喜欢开始 */
+.like1{
+	width: 100%;
+	height: 0.57rem;
+	background: #f0f0f0;
+	padding-top: 0.31rem;
+}
+.like1c{
+	width: 1.82rem;
+	height: 0.26rem;
+	/* background: blue; */
+	margin: 0 auto;
+}
+.like1c1{
+	width: 0.3rem;
+	height: 0.03rem;
+	margin-top: 0.14rem;
+	float: left;
+	background: #999999;
+}
+.like1c2{
+	display: block;
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	margin-left: 0.08rem;
+	text-align: center;
+	color: #999999;
+	float: left;
+}
+.like1c3{
+	width: 0.3rem;
+	height: 0.03rem;
+	margin-top: 0.14rem;
+	float: left;
+	margin-left: 0.08rem;
+	background: #999999;
+}
+.like2{
+	width: 100%;
+	height: 4.6rem;
+	border-bottom: 0.06rem solid #f0f0f0;
+}
+.like2 li{
+	width: 50%;
+	height: 4.54rem;
+	/* background: red; */
+	float: left;
+	box-sizing: border-box;
+}
+.like2 li:first-child{
+	border-right: 0.06rem solid #f0f0f0;
+}
+.like2 li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.like2-1{
+	width: 3.17rem;
+	height: 3.17rem;
+	margin: 0 auto;
+}
+.like2-1 img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.like2-2{
+	width: 2.79rem;
+	height: 0.56rem;
+	margin: 0 auto;
+	margin-top: 0.12rem;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color: #666666;
+	/* text-align: center; */
+}
+.like2-3{
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	margin-left: 0.16rem;
+	margin-top: 0.24rem;
+	color: #dd2727;
+	float: left;
+}
+.like2-4{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+	margin-top: 0.18rem;
+	color: #dd2727;
+	float: left;
+}
+.like2-5{
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	margin-left: 0.02rem;
+	margin-top: 0.26rem;
+	color: #dd2727;
+	float: left;
+}
+/* 猜你喜欢结束 */
+/* 标志开始 */
+.biaozhi{
+	width: 100%;
+	height: 0.6rem;
+	background: #eeeeee;
+	padding-top: 0.26rem;
+}
+.end{
+	width: 0.6rem;
+	height: 0.42rem;
+	margin: 0 auto;
+}
+.end img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 标志结束 */
